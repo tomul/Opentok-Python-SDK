@@ -34,9 +34,6 @@ install_requires = [
     'python-jose'
 ]
 
-if sys.version_info[0] < 3 or sys.version_info[1] < 4:
-    install_requires.append('enum34')
-
 setup(
     name = 'opentok',
     version = find_version('opentok', 'version.py'),
